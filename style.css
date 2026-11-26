@@ -98,7 +98,7 @@ h2 {
     line-height: 2;
 }
 .contact a {
-    color: #0000EE;
+    color: #2c2cc9;
     text-decoration: underline;
 }
 /* Pied de page */
@@ -124,12 +124,20 @@ footer {
     background-color: #a18c70;
     color: white
     all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 .bouton-accueil:hover {
     opacity: 0.85s;
     transform: scale(1.05);
-
+    color: blanchedalmond !important;
 }
+.bouton-accueil:visited {
+    color: wheat;
+}
+
+
 .moi-description {
     color: black;
     font-size: 30px;
@@ -149,7 +157,4 @@ footer {
     line-height: 1.8;
     color: #666666;
     margin-bottom: 20px;
-}
-.apropos .bouton-accueil {
-    margin-top: 15px;
 }
