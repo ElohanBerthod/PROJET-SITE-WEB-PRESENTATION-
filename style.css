@@ -1,3 +1,4 @@
+/* Général */
 * {
     margin: 0;
     padding: 0;
@@ -27,7 +28,6 @@ nav {
     gap: 30px;
 }
 /* Présentation */
-
 main {
     min-height: 80vh;
     display: flex;
@@ -91,13 +91,6 @@ h2 {
     background-color: #eae5dc;
 }
 /* Contact */
-.contact {
-    border-top: 1px solid #ddddda;
-    padding-top: 25px;
-    color: #666666;
-    font-size: 14px;
-    line-height: 2;
-}
 .contact a {
     color: #0000EE;
     text-decoration: none;
@@ -128,7 +121,6 @@ footer {
     background-color: #a18c70;
     color: white;
     text-decoration: none;
-    border-radius: 4px;
     transition: all 0.3s ease;
 }
 .bouton-accueil:hover {
