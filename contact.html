@@ -6,17 +6,29 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Me contacter</h1>
-    <p>Bienvenue sur ma page de contact !</p>
-    <h2>Mes coordonnées</h2>
-    <p>Email : elohanberthod5@gmail.com</p>
-    <p>Téléphone : 07 66 16 44 25</p>
-    <h2>Envoyez-moi un message</h2>
-    <form>
-        <label>Votre nom :</label>
-        <input type="text" placeholder="Votre nom"
+<div class="contact-container">
+ <h1>Me contacter</h1>
+ <p>Bienvenue sur ma page de contact !</p>
+<h3>Mes coordonnées</h3>
+<div class="contact-info">
+Email : elohanberthod5@gmail.com
+Téléphone : 07 66 16 44 25 
+</div>
+<h3>Envoyez-moi un message</h3>
+<form class="contact-formulaire">
+<label for="nom">Votre nom :</label>
+<input type="text" id="nom" placeholder="Votre nom">
         
-        <label> Votre email :</label>
-        <input type="email" placeholder="Votre email"
-    </form>
+<label for="email">Votre email :</label>
+<input type="email" id="email" placeholder="Votre email">
+<label for="message">Votre message :</label>
+<textarea id="Message" placeholder="Votre message"></textarea>
+<button type="submit">Envoyer</button> 
+</form>
+<a href="index.html" class="bouton-accueil-contact">
+Retour à l'accueil
+</a>
+
+</div>
 </body>
+</html>
